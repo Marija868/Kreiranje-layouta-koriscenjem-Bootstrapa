@@ -1,0 +1,287 @@
+
+body{
+    margin: 0 auto;
+    background-color: rgba(233, 227, 227, 0.548);
+}
+
+/**********************************HEADER******************************************/
+
+#header{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#header-logo{
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header a{
+    color: black;
+    margin-left: 30px;
+}
+
+header a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#menu-icon{
+    width: 32px;
+    margin-top: 20px;
+}
+
+header p {
+    float: right;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 768px){
+
+    #header-logo{
+        width: 180px;
+        margin-top: 30px; 
+    }
+
+    #menu-icon{
+        width: 30px;
+        margin-top: 30px;
+    }
+
+    #menu p{
+        padding-top: 10px;
+    }
+}
+
+
+
+@media (max-width: 576px){
+
+    #header-logo{
+        width: 180px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #menu-icon{
+        width: 26px;
+        margin-top: 30px;
+    }
+
+    #menu p{
+        padding-top: 10px;
+        font-size: 18px;
+    }
+}
+
+/**************************************HERO-SECTION*********************************/
+
+
+#hero-section{
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+#green-box{
+    background: rgb(73, 155, 107);
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: 70px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+@media (max-width: 768px){
+
+    #hero-section{
+        background-size: 100%;
+    }
+
+    #green-box{
+        margin-top:-40px;
+        margin-left: 70px;
+        padding: 5px;
+    }
+
+    #green-box p{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 576px){
+
+    #hero-section{
+        background-size: 100%;   
+    }
+
+    #green-box{
+        margin-top: -6px;
+        margin-left: 20px;
+        padding: 10px; 
+    }
+
+    #green-box p{
+        font-size: 22px;
+    }
+}
+
+
+/**************************************INTRO-SECTION*********************************/
+
+@media (max-width: 768px){
+
+    #intro-section{
+        margin-top: -50px;
+    }
+
+    #intro-section img{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 576px){
+
+    #intro-section{
+        margin-top: -130px;
+    }
+
+    #intro-section img{
+        margin-top: 20px;
+    }
+
+    #intro-section p{
+        margin-top: 10px;
+    }
+}
+
+
+/**************************************ABOUT-SECTION*********************************/
+
+@media (max-width: 576px){
+
+    #about-section img{
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    #about-section{
+        margin: 10px;
+    }
+    #about-section1{
+        margin: 10px;
+    }
+
+    #about-section1 img{
+        width: 100% !important;
+    }
+
+    #about-section img{
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width: 1200px){
+
+    #about-section1 img{
+        width: 360px !important;
+    }
+}
+
+/**************************************CONTACT-SECTION*********************************/
+
+
+#bg-1{
+    background-color: rgb(36, 30, 30);  
+}
+
+
+#hr1 hr{
+    border-color: grey;
+    margin-bottom: 4px;
+}
+
+#hr1 p{
+    margin-bottom: -6px;
+}
+
+
+#hr2 hr{
+    border-color: grey;
+    margin-bottom: 2px;
+}
+
+#hr2 p{
+    margin-bottom: -10px;
+}
+
+
+@media (max-width: 768px){
+
+    #first{
+        padding-top: 10px;
+        margin-bottom: 90px;
+    }
+
+    #hr1{
+        margin-bottom: 90px;
+    }
+
+    #hr2{
+        margin-bottom: 90px;
+    }
+}
+
+
+
+@media (max-width: 576px){
+
+    #bg-1{
+        padding: 0px !important;
+    }
+
+    #first{
+        padding-top: 40px;
+        margin-bottom: 110px;
+        margin-left: 10px;
+        padding-right: 40px;
+    }
+     
+    #hr1{
+        margin-bottom: 110px;
+        margin-left: 10px;
+        padding-right: 40px;
+    }
+
+    #hr2{
+        margin-bottom: 110px;
+        margin-left: 10px;
+        padding-right: 40px;
+    }
+}
+
+
+/**************************************FOOTER-SECTION*********************************/
+
+#bg-2{
+    background-color: rgb(19, 15, 15);
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
